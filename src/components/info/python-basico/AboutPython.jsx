@@ -27,7 +27,7 @@ const AboutPython = () => {
           <h3 className="text-xl text-orange-500">Rápido y fácil de aprender</h3>
           <p className="text-gray-800 dark:text-gray-200">Los programadores experimentados en cualquier otro idioma pueden aprender Python muy rápidamente, y los principiantes encuentran fácil de aprender la sintaxis limpia y la estructura de sangría.</p>
           <br />
-          <button type="button" className="px-2 py-1 text-gray-500 border border-yellow-500 rounded-lg dark:text-gray-200 dark:bg-yellow-500"><a href="https://repl.it/@joseniquen/EdullkaWeb-1" rel="noreferrer" target="_blank">Prueba aquí</a></button>
+          <a href="https://repl.it/@joseniquen/EdullkaWeb-1" className="px-2 py-2 text-gray-500 border border-yellow-500 rounded-lg dark:text-gray-200 dark:bg-yellow-500" rel="noreferrer" target="_blank">Prueba aquí</a>
         </div>
       </div>
 
@@ -36,7 +36,7 @@ const AboutPython = () => {
           <h3 className="text-xl text-orange-500">Todo el flujo que esperabas</h3>
           <p className="text-gray-800 dark:text-gray-200">Python conoce las declaraciones de flujo de control habituales que se declaran en otros lenguajes — if, for, while y range — con algunos de sus propios cambios, por supuesto.</p>
           <br />
-          <button type="button" className="px-2 py-1 text-gray-500 border border-yellow-500 rounded-lg dark:text-gray-200 dark:bg-yellow-500"><a href="https://repl.it/@joseniquen/EdullkaWeb-2" rel="noreferrer" target="_blank">Prueba aquí</a></button>
+          <a href="https://repl.it/@joseniquen/EdullkaWeb-2" className="px-2 py-2 text-gray-500 border border-yellow-500 rounded-lg dark:text-gray-200 dark:bg-yellow-500" rel="noreferrer" target="_blank">Prueba aquí</a>
         </div>
         
         <div className="text-gray-400 bg-white border border-gray-200 rounded-lg shadow-md min-w-max dark:border-gray-700 dark:bg-gray-900">
@@ -78,7 +78,7 @@ const AboutPython = () => {
           <h3 className="text-xl text-orange-500">Funciones definidas</h3>
           <p className="text-gray-800 dark:text-gray-200">El núcleo de la programación extensible es definir funciones. Python permite argumentos obligatorios y opcionales, argumentos de palabras clave e incluso listas de argumentos arbitrarios.</p>
           <br />
-          <button type="button" className="px-2 py-1 text-gray-500 border border-yellow-500 rounded-lg dark:text-gray-200 dark:bg-yellow-500"><a href="https://repl.it/@joseniquen/EdullkaWeb-3" rel="noreferrer" target="_blank">Prueba aquí</a></button>
+          <a href="https://repl.it/@joseniquen/EdullkaWeb-3" className="px-3 py-2 text-gray-500 border border-yellow-500 rounded-lg dark:text-gray-200 dark:bg-yellow-500" rel="noreferrer" target="_blank">Prueba aquí</a>
         </div>
       </div>
     </>

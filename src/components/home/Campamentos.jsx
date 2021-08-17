@@ -21,7 +21,7 @@ const Campamentos = () => {
               disabled={false} 
               logo={"images/python.webp"} 
               lista={[
-                "images/perfil-jhomar astuyauri.webp",
+                "images/perfil-jhomar astuyauri.png",
                 "images/perfil-josé ñiquen.webp",
                 "images/perfil-moises miguel.webp",
                 "images/perfil-juan napan.jpg",

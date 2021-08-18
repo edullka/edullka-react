@@ -23,8 +23,8 @@ const Campamentos = () => {
               lista={[
                 "images/perfil-jhomar astuyauri.png",
                 "images/perfil-josé ñiquen.webp",
-                "images/perfil-moises miguel.webp",
-                "images/perfil-juan napan.jpg",
+                "images/perfil-josé guerra.webp",
+                "images/perfil-antony saccaco.jpg",
                 "images/perfil-cristopher rufasto.jpg"
               ]} 
               inscripcion={"https://forms.gle/K7NkZhsdRM42b4Ym8"} 

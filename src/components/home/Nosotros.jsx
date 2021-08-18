@@ -22,7 +22,7 @@ const Nosotros = () => {
 
             <div className="flex-col col-span-2">
               <div className="relative flex items-center justify-center w-full h-60">
-                <img src="/images/perfil-jhomar astuyauri.webp" alt="" className="object-cover w-48 h-48 rounded-full" />
+                <img src="/images/perfil-jhomar astuyauri.png" alt="" className="object-cover w-48 h-48 rounded-full" />
               </div>
 
               <div className="mx-4 my-6 mb-2 text-center">

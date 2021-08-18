@@ -24,7 +24,7 @@ const Home = () => {
   }, []);
 
   const popUpWsp = () => {
-    if(stateWsp == "active"){
+    if(stateWsp === "active"){
       setStateWsp("");
     } else{
       setStateWsp("active");

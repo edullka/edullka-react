@@ -57,7 +57,7 @@ const Nabvar = () => {
               <div className="flex items-center justify-end space-x-4 font-nav-1">
                 <Link to="/" className="px-3 py-2 text-xl font-medium tracking-wide text-gray-800 uppercase bg-gray-200 rounded-md dark:text-white dark:bg-black">Inicio</Link>
                 <a href="../#campamentos" className="px-3 py-2 text-xl font-medium tracking-wide text-gray-600 uppercase rounded-md dark:text-gray-300 hover:bg-gray-700 hover:text-white">Campamentos</a>
-                <a href="../#nosotros" className="px-3 py-2 text-xl font-medium tracking-wide text-gray-600 uppercase rounded-md dark:text-gray-300 hover:bg-gray-700 hover:text-white">Nosotros</a>
+                {/* <a href="../#nosotros" className="px-3 py-2 text-xl font-medium tracking-wide text-gray-600 uppercase rounded-md dark:text-gray-300 hover:bg-gray-700 hover:text-white">Nosotros</a> */}
               </div>
             </div>
           </div>
@@ -78,7 +78,7 @@ const Nabvar = () => {
             <div className="px-2 pt-2 pb-3 space-y-1">
               <Link to="/" className="block px-3 py-2 text-base font-medium text-gray-800 bg-gray-200 rounded-md dark:text-white dark:bg-gray-900">Inicio</Link>
               <a href="#campamentos" className="block px-3 py-2 text-base font-medium text-gray-600 rounded-md hover:bg-gray-700 dark:text-gray-300 hover:text-white">Campamentos</a>
-              <a href="#nosotros" className="block px-3 py-2 text-base font-medium text-gray-600 rounded-md hover:bg-gray-700 dark:text-gray-300 hover:text-white">Nosotros</a>
+              {/* <a href="#nosotros" className="block px-3 py-2 text-base font-medium text-gray-600 rounded-md hover:bg-gray-700 dark:text-gray-300 hover:text-white">Nosotros</a> */}
             </div>
           </div>
         ) : (

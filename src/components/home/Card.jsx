@@ -35,7 +35,7 @@ const Card = (props) => {
 
       <div className="flex pb-6 mx-4 mt-2 mb-4 space-x-3 text-sm font-medium">
         <div className="flex flex-auto space-x-3">
-          <a className={"flex items-center justify-center w-1/2 text-white bg-yellow-500 rounded-md " + (props.disabled ? "opacity-50 pointer-events-none" : "") + " h-9"} type="submit" rel="noreferrer" target="_blank" href={props.inscripcion}>Inscríbete</a>
+          <a className={"flex items-center justify-center w-1/2 text-white bg-yellow-500 rounded-md " + (props.disabled ? "opacity-50 pointer-events-none" : "opacity-50 pointer-events-none") + " h-9"} type="submit" rel="noreferrer" target="_blank" href={props.inscripcion}>Inscríbete</a>
           <a className={"flex items-center justify-center w-1/2 border border-gray-300 rounded-md " + (props.disabled ? "opacity-50 pointer-events-none" : "") + " dark:text-gray-300 h-9"} type="button" href={props.informacion}>Información</a>
         </div>
       </div>

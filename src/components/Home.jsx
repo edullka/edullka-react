@@ -56,10 +56,10 @@ const Home = () => {
                       de aprendizaje</p>
                     </h1>
                     <p className="mb-2 text-2xl text-center text-gray-500 dark:text-white lg:text-left font-roboto lg:mt-8 lg:text-2xl sm:mt-5 sm:text-2xl sm:max-w-xl sm:mx-auto md:mt-5 lg:mx-0">¡Empezamos el <span className="font-bold text-yellow-500 saturacion-home">Campamento de Python</span>!</p>
-                    <p className="mb-4 text-center text-gray-500 text-md dark:text-white lg:text-left font-roboto lg:mt-2 lg:text-md sm:mt-2 sm:text-md sm:max-w-xl sm:mx-auto md:mt-2 lg:mx-0">Inscripciones abiertas del 09 al 20 de de agosto</p>
+                    <p className="mb-4 text-center text-gray-500 text-md dark:text-white lg:text-left font-roboto lg:mt-2 lg:text-md sm:mt-2 sm:text-md sm:max-w-xl sm:mx-auto md:mt-2 lg:mx-0">Inscripciones abiertas del 19 al 31 de de octubre</p>
                     <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                      <div className="rounded-md shadow">
-                        <a href="https://forms.gle/K7NkZhsdRM42b4Ym8" rel="noreferrer" target="_blank" className="flex items-center justify-center w-full h-12 px-8 py-3 text-base font-medium text-white bg-yellow-500 border border-transparent rounded-md saturacion-home font-roboto sm:h-full hover:bg-yellow-600 md:py-4 md:text-lg md:px-10">
+                      <div className="rounded-md shadow" >
+                        <a href="https://forms.gle/K7NkZhsdRM42b4Ym8" style={{pointerEvents: "none"}}  rel="noreferrer" target="_blank" className="flex items-center justify-center w-full h-12 px-8 py-3 text-base font-medium text-white bg-yellow-500 opacity-70 border border-transparent rounded-md saturacion-home font-roboto sm:h-full hover:bg-yellow-600 md:py-4 md:text-lg md:px-10">
                           Inscríbete
                         </a>
                       </div>
@@ -100,7 +100,7 @@ const Home = () => {
         <main style={{fontFamily: "'Roboto', sans-serif"}}>
           <Metodologia />
           <Campamentos />
-          <Nosotros />
+          {/* <Nosotros /> */}
           <Frase />
         </main>
       </div>

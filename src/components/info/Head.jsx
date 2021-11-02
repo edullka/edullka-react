@@ -33,7 +33,7 @@ const Head = (props) => {
             <div className="flex items-center justify-center px-2 py-1 my-1 mr-2 bg-gray-200 rounded-lg dark:text-gray-400 dark:bg-gray-900"><a href={props.version[1]} rel="noreferrer" target="_blank">{props.version[0]}</a></div>
           </div>
           <div className="flex flex-wrap items-center justify-center w-full mt-2 md:px-8 md:justify-end">
-            <a href="https://forms.gle/K7NkZhsdRM42b4Ym8" rel="noreferrer" target="_blank" className="flex items-center justify-center text-xl px-6 py-2 md:px-5 md:py-1.5 text-white bg-orange-500 dark:bg-yellow-500 rounded-md">Inscríbete ahora</a>
+            <a href="https://forms.gle/K7NkZhsdRM42b4Ym8" rel="noreferrer" target="_blank" className="flex items-center justify-center text-xl px-6 py-2 md:px-5 md:py-1.5 text-white bg-orange-500 dark:bg-yellow-500 rounded-md opacity-50 pointer-events-none">Inscríbete ahora</a>
           </div>
         </div>
       </div> 

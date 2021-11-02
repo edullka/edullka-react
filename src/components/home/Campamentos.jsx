@@ -23,9 +23,7 @@ const Campamentos = () => {
               lista={[
                 "images/perfil-jhomar astuyauri.png",
                 "images/perfil-josé ñiquen.webp",
-                "images/perfil-josé guerra.webp",
-                "images/perfil-antony saccaco.jpg",
-                "images/perfil-cristopher rufasto.jpg"
+                "images/perfil-leonardo moina.jpeg"
               ]} 
               inscripcion={"https://forms.gle/K7NkZhsdRM42b4Ym8"} 
               informacion={"campamentos/python-basico"}
